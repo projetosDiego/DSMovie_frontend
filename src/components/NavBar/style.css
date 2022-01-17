@@ -1,0 +1,30 @@
+header {
+    background-color: var(--color-primary); /*aplica cor padrao em todo o cabecalho*/
+    height: 60px; /*define a altura de 60 pixels para o header*/
+    display: flex; /*organiza os itens dentro da div*/
+    align-items: center; /*depois de informar o display é flex, podemos utilizar outras formas de organizacao*/
+}
+
+.dsmovie-nav-content {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; /*crai um espaco entre os itens*/
+    color: #fff;
+}
+
+.dsmovie-nav-content h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.dsmovie-contact-container {
+    display: flex;
+    align-items: center;
+}
+
+.dsmovie-contact-link {
+    margin: 0 0 0 10px;
+    font-size: 12px;
+    color: #fff;
+}
